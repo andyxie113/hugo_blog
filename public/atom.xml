@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Hugo Theme MemE</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-20T18:02:06&#43;08:00</updated>
+    <updated>2022-05-20T18:04:43&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
         <entry>
             <title type="text">RocketMQ出现system busy、broker busy原因分析与解决</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/my_first-%E5%89%AF%E6%9C%AC/" />
-            <id>https://example.com/posts/my_first-%E5%89%AF%E6%9C%AC/</id>
+            <link rel="alternate" type="text/html" href="https://example.com/posts/rocketmq_1/" />
+            <id>https://example.com/posts/rocketmq_1/</id>
             <updated>2018-09-26T00:00:00&#43;00:00</updated>
             <published>2018-09-18T00:00:00&#43;00:00</published>
             <author>

@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Fri, 20 May 2022 18:02:06 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 20 May 2022 18:04:43 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
         
         
             <item>
                 <title>RocketMQ出现system busy、broker busy原因分析与解决</title>
-                <link>https://example.com/posts/my_first-%E5%89%AF%E6%9C%AC/</link>
-                <guid isPermaLink="true">https://example.com/posts/my_first-%E5%89%AF%E6%9C%AC/</guid>
+                <link>https://example.com/posts/rocketmq_1/</link>
+                <guid isPermaLink="true">https://example.com/posts/rocketmq_1/</guid>
                 <pubDate>Tue, 18 Sep 2018 00:00:00 &#43;0000</pubDate>
                 
                     <author>605370591@qq.com (雨吁)</author>
