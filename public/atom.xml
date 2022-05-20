@@ -4,15 +4,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
     <title type="text">Hugo Theme MemE</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-20T17:53:19&#43;08:00</updated>
+    <updated>2022-05-20T18:02:06&#43;08:00</updated>
     <id>https://example.com/</id>
     <link rel="alternate" type="text/html" href="https://example.com/" />
     <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
     <author>
-            <name>reuixiy</name>
+            <name>雨吁</name>
             <uri>https://example.com/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>605370591@qq.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights>
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
@@ -23,9 +23,9 @@
             <updated>2018-09-26T00:00:00&#43;00:00</updated>
             <published>2018-09-18T00:00:00&#43;00:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>雨吁</name>
+                    <uri>https://xiewen.xyz/</uri>
+                    <email>605370591@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息</summary>
             
@@ -116,9 +116,9 @@
             <updated>2018-09-26T00:00:00&#43;00:00</updated>
             <published>2018-09-18T00:00:00&#43;00:00</published>
             <author>
-                    <name>reuixiy</name>
-                    <uri>https://io-oi.me/</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <name>雨吁</name>
+                    <uri>https://xiewen.xyz/</uri>
+                    <email>605370591@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</rights><summary type="html">这是描述信息</summary>
             
