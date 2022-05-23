@@ -2,8 +2,8 @@
 title: "RocketMQ出现system busy、broker busy原因分析与解决"                         
 author: "雨吁"  
 description : "RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息"    
-date: 2018-09-18        
-lastmod: 2018-09-26             
+date: 2022-05-20        
+lastmod: 2022-05-20             
 
 tags : [                                    
 "rocketmq",
