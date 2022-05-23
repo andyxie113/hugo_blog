@@ -1,4 +1,29 @@
-# navicat安装激活教程
+title: "navicat激活"                         
+author: "雨吁"  
+description : "最新版navicat激活"    
+date: 2022-05-23        
+lastmod: 2022-05-23             
+
+tags : [                                    
+"navicat",
+
+"工具"
+
+]
+categories : [                              
+"navicat",
+
+"工具"
+
+]
+keywords : [                                
+"navicat",
+
+"工具"
+
+]
+
+
 
 ## 1.安装
 
