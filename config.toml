@@ -1,10 +1,10 @@
 ##########################################
 # Site Settings
 
-baseURL = "https://example.com/"
-title = "Hugo Theme MemE"
-languageCode = "en"
-hasCJKLanguage = false
+baseURL = "https://xiewen.xyz/"
+title = "Andy_Blog"
+languageCode = "zh-CN"
+hasCJKLanguage = true
 # Copyright information (Markdown supported)
 copyright = "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)"
 
@@ -15,14 +15,14 @@ theme = "meme"
 newContentEditor = ""
 
 # i18n
-defaultContentLanguage = "en"
+defaultContentLanguage = "es"
 defaultContentLanguageInSubdir = false
 
 # Pluralize titles in lists?
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 42
+summaryLength = 18
 
 # Enable Emoji emoticons support?
 enableEmoji = false
@@ -39,7 +39,7 @@ enableRobotsTXT = true
 # Number of items per page in paginated
 # lists (valid for the `posts` homepage
 # layout in MemE)
-paginate = 5
+paginate = 8
 
 # URL related
 disablePathToLower = false
@@ -102,7 +102,7 @@ uglyURLs = false
     # Email
     email = "605370591@qq.com"
     # Motto or introduction
-    motto = "Viva La Vida"
+    motto = "你是猎人，还是猎物。"
     # Avatar
     avatar = "/icons/apple-touch-icon.png"
     # Personal website, default: baseURL
@@ -211,25 +211,25 @@ uglyURLs = false
     #     post = "home"
     [[menu.main]]
         pageref = "/posts/"
-        name = "Posts"
+        name = "文章"
         weight = 2
         pre = "internal"
         post = "archive"
     [[menu.main]]
         pageref = "/categories/"
-        name = "Categories"
+        name = "分类"
         weight = 3
         pre = "internal"
         post = "th"
     [[menu.main]]
         pageref = "/tags/"
-        name = "Tags"
+        name = "标签"
         weight = 4
         pre = "internal"
         post = "tags"
     [[menu.main]]
         pageref = "/about/"
-        name = "About"
+        name = "关于"
         weight = 5
         pre = "internal"
         post = "user-circle"

@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://xiewen.xyz/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/</loc>
+    <loc>https://xiewen.xyz/categories/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/navicat/</loc>
+    <loc>https://xiewen.xyz/tags/navicat/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/navicat/</loc>
+    <loc>https://xiewen.xyz/categories/navicat/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/navicat%E6%BF%80%E6%B4%BB/</loc>
+    <loc>https://xiewen.xyz/posts/navicat%E6%BF%80%E6%B4%BB/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/opentwrt/</loc>
+    <loc>https://xiewen.xyz/tags/opentwrt/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/opentwrt/</loc>
+    <loc>https://xiewen.xyz/categories/opentwrt/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/openwrt%E7%BC%96%E8%AF%91/</loc>
+    <loc>https://xiewen.xyz/posts/openwrt%E7%BC%96%E8%AF%91/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://xiewen.xyz/posts/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://xiewen.xyz/tags/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/wrt/</loc>
+    <loc>https://xiewen.xyz/tags/wrt/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/wrt/</loc>
+    <loc>https://xiewen.xyz/categories/wrt/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://xiewen.xyz/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://xiewen.xyz/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://xiewen.xyz/tags/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://xiewen.xyz/categories/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/tags/rocketmq/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <loc>https://xiewen.xyz/tags/rocketmq/</loc>
+    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/categories/rocketmq/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <loc>https://xiewen.xyz/categories/rocketmq/</loc>
+    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://example.com/posts/rocketmq_1/</loc>
-    <lastmod>2018-09-26T00:00:00+00:00</lastmod>
+    <loc>https://xiewen.xyz/posts/rocketmq_1/</loc>
+    <lastmod>2022-05-20T00:00:00+00:00</lastmod>
   </url>
 </urlset>

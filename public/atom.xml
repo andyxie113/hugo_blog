@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-    <title type="text">Hugo Theme MemE</title>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Andy_Blog</title>
     <subtitle type="html">MemE is a powerful and highly customizable GoHugo theme for personal blogs.</subtitle>
-    <updated>2022-05-23T15:47:01&#43;08:00</updated>
-    <id>https://example.com/</id>
-    <link rel="alternate" type="text/html" href="https://example.com/" />
-    <link rel="self" type="application/atom&#43;xml" href="https://example.com/atom.xml" />
+    <updated>2022-05-24T18:02:25&#43;08:00</updated>
+    <id>https://xiewen.xyz/</id>
+    <link rel="alternate" type="text/html" href="https://xiewen.xyz/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://xiewen.xyz/atom.xml" />
     <author>
             <name>雨吁</name>
-            <uri>https://example.com/</uri>
+            <uri>https://xiewen.xyz/</uri>
             
                 <email>605370591@qq.com</email>
             </author>
@@ -18,8 +18,8 @@
     <generator uri="https://gohugo.io/" version="0.98.0">Hugo</generator>
         <entry>
             <title type="text">Navicat激活</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/navicat%E6%BF%80%E6%B4%BB/" />
-            <id>https://example.com/posts/navicat%E6%BF%80%E6%B4%BB/</id>
+            <link rel="alternate" type="text/html" href="https://xiewen.xyz/posts/navicat%E6%BF%80%E6%B4%BB/" />
+            <id>https://xiewen.xyz/posts/navicat%E6%BF%80%E6%B4%BB/</id>
             <updated>2022-05-23T00:00:00&#43;00:00</updated>
             <published>2022-05-23T00:00:00&#43;00:00</published>
             <author>
@@ -131,19 +131,19 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/navicat/" term="navicat" label="navicat" />
+                                <category scheme="https://xiewen.xyz/categories/navicat/" term="navicat" label="navicat" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E5%B7%A5%E5%85%B7/" term="工具" label="工具" />
+                                <category scheme="https://xiewen.xyz/categories/%E5%B7%A5%E5%85%B7/" term="工具" label="工具" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/" term="激活工具" label="激活工具" />
+                                <category scheme="https://xiewen.xyz/categories/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/" term="激活工具" label="激活工具" />
                             
                         
                     
@@ -153,19 +153,19 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/navicat/" term="navicat" label="navicat" />
+                                <category scheme="https://xiewen.xyz/tags/navicat/" term="navicat" label="navicat" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E5%B7%A5%E5%85%B7/" term="工具" label="工具" />
+                                <category scheme="https://xiewen.xyz/tags/%E5%B7%A5%E5%85%B7/" term="工具" label="工具" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/" term="激活工具" label="激活工具" />
+                                <category scheme="https://xiewen.xyz/tags/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/" term="激活工具" label="激活工具" />
                             
                         
                     
@@ -175,8 +175,8 @@
     
         <entry>
             <title type="text">OpenWRT自编译教程</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/openwrt%E7%BC%96%E8%AF%91/" />
-            <id>https://example.com/posts/openwrt%E7%BC%96%E8%AF%91/</id>
+            <link rel="alternate" type="text/html" href="https://xiewen.xyz/posts/openwrt%E7%BC%96%E8%AF%91/" />
+            <id>https://xiewen.xyz/posts/openwrt%E7%BC%96%E8%AF%91/</id>
             <updated>2022-05-23T00:00:00&#43;00:00</updated>
             <published>2022-05-23T00:00:00&#43;00:00</published>
             <author>
@@ -225,13 +225,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/wrt/" term="wrt" label="wrt" />
+                                <category scheme="https://xiewen.xyz/categories/wrt/" term="wrt" label="wrt" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/categories/opentwrt/" term="opentwrt" label="opentwrt" />
+                                <category scheme="https://xiewen.xyz/categories/opentwrt/" term="opentwrt" label="opentwrt" />
                             
                         
                     
@@ -241,13 +241,13 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/wrt/" term="wrt" label="wrt" />
+                                <category scheme="https://xiewen.xyz/tags/wrt/" term="wrt" label="wrt" />
                             
                         
                             
                             
                             
-                                <category scheme="https://example.com/tags/opentwrt/" term="opentwrt" label="opentwrt" />
+                                <category scheme="https://xiewen.xyz/tags/opentwrt/" term="opentwrt" label="opentwrt" />
                             
                         
                     
@@ -257,10 +257,10 @@
     
         <entry>
             <title type="text">RocketMQ出现system busy、broker busy原因分析与解决</title>
-            <link rel="alternate" type="text/html" href="https://example.com/posts/rocketmq_1/" />
-            <id>https://example.com/posts/rocketmq_1/</id>
-            <updated>2018-09-26T00:00:00&#43;00:00</updated>
-            <published>2018-09-18T00:00:00&#43;00:00</published>
+            <link rel="alternate" type="text/html" href="https://xiewen.xyz/posts/rocketmq_1/" />
+            <id>https://xiewen.xyz/posts/rocketmq_1/</id>
+            <updated>2022-05-20T00:00:00&#43;00:00</updated>
+            <published>2022-05-20T00:00:00&#43;00:00</published>
             <author>
                     <name>雨吁</name>
                     <uri>https://xiewen.xyz/</uri>
@@ -330,7 +330,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/categories/rocketmq/" term="rocketmq" label="rocketmq" />
+                                <category scheme="https://xiewen.xyz/categories/rocketmq/" term="rocketmq" label="rocketmq" />
                             
                         
                     
@@ -340,7 +340,7 @@
                             
                             
                             
-                                <category scheme="https://example.com/tags/rocketmq/" term="rocketmq" label="rocketmq" />
+                                <category scheme="https://xiewen.xyz/tags/rocketmq/" term="rocketmq" label="rocketmq" />
                             
                         
                     

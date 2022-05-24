@@ -7,12 +7,12 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo Theme MemE</title>
-        <link>https://example.com/</link>
+        <title>Andy_Blog</title>
+        <link>https://xiewen.xyz/</link>
         <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
         <generator>Hugo 0.98.0 https://gohugo.io/</generator>
         
-            <language>en</language>
+            <language>zh-CN</language>
         
         
             <managingEditor>605370591@qq.com (雨吁)</managingEditor>
@@ -23,15 +23,15 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Mon, 23 May 2022 15:47:01 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 24 May 2022 18:02:25 &#43;0800</lastBuildDate>
         
-            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://xiewen.xyz/rss.xml" />
         
         
             <item>
                 <title>Navicat激活</title>
-                <link>https://example.com/posts/navicat%E6%BF%80%E6%B4%BB/</link>
-                <guid isPermaLink="true">https://example.com/posts/navicat%E6%BF%80%E6%B4%BB/</guid>
+                <link>https://xiewen.xyz/posts/navicat%E6%BF%80%E6%B4%BB/</link>
+                <guid isPermaLink="true">https://xiewen.xyz/posts/navicat%E6%BF%80%E6%B4%BB/</guid>
                 <pubDate>Mon, 23 May 2022 00:00:00 &#43;0000</pubDate>
                 
                     <author>605370591@qq.com (雨吁)</author>
@@ -140,19 +140,19 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/navicat/">navicat</category>
+                                    <category domain="https://xiewen.xyz/categories/navicat/">navicat</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/%E5%B7%A5%E5%85%B7/">工具</category>
+                                    <category domain="https://xiewen.xyz/categories/%E5%B7%A5%E5%85%B7/">工具</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/">激活工具</category>
+                                    <category domain="https://xiewen.xyz/categories/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/">激活工具</category>
                                 
                             
                         
@@ -162,19 +162,19 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/navicat/">navicat</category>
+                                    <category domain="https://xiewen.xyz/tags/navicat/">navicat</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/%E5%B7%A5%E5%85%B7/">工具</category>
+                                    <category domain="https://xiewen.xyz/tags/%E5%B7%A5%E5%85%B7/">工具</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/">激活工具</category>
+                                    <category domain="https://xiewen.xyz/tags/%E6%BF%80%E6%B4%BB%E5%B7%A5%E5%85%B7/">激活工具</category>
                                 
                             
                         
@@ -184,8 +184,8 @@
         
             <item>
                 <title>OpenWRT自编译教程</title>
-                <link>https://example.com/posts/openwrt%E7%BC%96%E8%AF%91/</link>
-                <guid isPermaLink="true">https://example.com/posts/openwrt%E7%BC%96%E8%AF%91/</guid>
+                <link>https://xiewen.xyz/posts/openwrt%E7%BC%96%E8%AF%91/</link>
+                <guid isPermaLink="true">https://xiewen.xyz/posts/openwrt%E7%BC%96%E8%AF%91/</guid>
                 <pubDate>Mon, 23 May 2022 00:00:00 &#43;0000</pubDate>
                 
                     <author>605370591@qq.com (雨吁)</author>
@@ -231,13 +231,13 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/wrt/">wrt</category>
+                                    <category domain="https://xiewen.xyz/categories/wrt/">wrt</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/opentwrt/">opentwrt</category>
+                                    <category domain="https://xiewen.xyz/categories/opentwrt/">opentwrt</category>
                                 
                             
                         
@@ -247,13 +247,13 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/wrt/">wrt</category>
+                                    <category domain="https://xiewen.xyz/tags/wrt/">wrt</category>
                                 
                             
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/opentwrt/">opentwrt</category>
+                                    <category domain="https://xiewen.xyz/tags/opentwrt/">opentwrt</category>
                                 
                             
                         
@@ -263,9 +263,9 @@
         
             <item>
                 <title>RocketMQ出现system busy、broker busy原因分析与解决</title>
-                <link>https://example.com/posts/rocketmq_1/</link>
-                <guid isPermaLink="true">https://example.com/posts/rocketmq_1/</guid>
-                <pubDate>Tue, 18 Sep 2018 00:00:00 &#43;0000</pubDate>
+                <link>https://xiewen.xyz/posts/rocketmq_1/</link>
+                <guid isPermaLink="true">https://xiewen.xyz/posts/rocketmq_1/</guid>
+                <pubDate>Fri, 20 May 2022 00:00:00 &#43;0000</pubDate>
                 
                     <author>605370591@qq.com (雨吁)</author>
                 
@@ -333,7 +333,7 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/categories/rocketmq/">rocketmq</category>
+                                    <category domain="https://xiewen.xyz/categories/rocketmq/">rocketmq</category>
                                 
                             
                         
@@ -343,7 +343,7 @@
                                 
                                 
                                 
-                                    <category domain="https://example.com/tags/rocketmq/">rocketmq</category>
+                                    <category domain="https://xiewen.xyz/tags/rocketmq/">rocketmq</category>
                                 
                             
                         
