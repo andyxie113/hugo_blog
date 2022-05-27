@@ -1,7 +1,7 @@
 ---
-title: "centos7编译安装mysql5.6"                         
+title: "CentOS7编译安装MySQL5.6"                         
 author: "雨吁"  
-description : "centos7编译安装mysql5.6"    
+description : "CentOS7编译安装MySQL5.6"    
 date: 2022-05-27        
 lastmod: 2022-05-27             
 

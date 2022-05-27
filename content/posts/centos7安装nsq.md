@@ -1,7 +1,7 @@
 ---
 title: "CentOS7安装NSQ"                         
 author: "雨吁"  
-description : "go环境安装，nsq安装"    
+description : "go环境安装，nsq安装，nsq简介，nsq组件介绍"    
 date: 2022-05-26        
 lastmod: 2022-05-26             
 
