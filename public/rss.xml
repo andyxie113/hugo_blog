@@ -23,13 +23,13 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
         
-        <lastBuildDate>Fri, 27 May 2022 16:50:09 &#43;0800</lastBuildDate>
+        <lastBuildDate>Fri, 27 May 2022 16:54:03 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://xiewen.xyz/rss.xml" />
         
         
             <item>
-                <title>centos7编译安装mysql5.6</title>
+                <title>CentOS7编译安装MySQL5.6</title>
                 <link>https://xiewen.xyz/posts/centos7%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85mysql5.6/</link>
                 <guid isPermaLink="true">https://xiewen.xyz/posts/centos7%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85mysql5.6/</guid>
                 <pubDate>Fri, 27 May 2022 00:00:00 &#43;0000</pubDate>
