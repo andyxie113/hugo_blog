@@ -59,8 +59,7 @@ cmake \
 -DDEFAULT_CHARSET=utf8  \
 -DDEFAULT_COLLATION=utf8_general_ci
 ```
-
-执行完cmake之后、执行make和make install 
+​	执行完cmake之后、执行make和make install 
 
 ###### 参数详解：
 
@@ -81,9 +80,64 @@ cmake \
 ```
 
 ## 4.数据库初始化
+​	安装目录授权
+```bash
+chown -R mysql.mysql /opt/mysql/
+chown -R mysql.mysql /opt/data/mysql/
+```
+
+​	修改my.cnf文件
+
+```
+[mysql]
+socket=/opt/mysql/mysqld.sock
+default-character-set=utf8
+[mysqld]
+skip-grant-tables
+explicit_defaults_for_timestamp=true
+skip-name-resolve
+port = 3306
+socket=/opt/mysql/mysqld.sock
+basedir=/opt/mysql
+datadir=/opt/data/mysql
+max_connections = 2000
+default-storage-engine=INNODB
+lower_case_table_names=1
+max_allowed_packet=16M
+log-error=/opt/mysql/logs/mysql.log
+pid-file=/opt/mysql/mysql.pid
+!includedir /etc/my.cnf.d
+```
+
+​	开始初始化
 
 ```bash
-#对目录授权
+./scripts/mysql_install_db --user=mysql --datadir=/opt/data/mysql --no-defaults
+```
 
+​	启动mysql
+
+```bash
+#拷贝启动文件
+cp ./support-files/mysql.server /etc/init.d/mysql
+chmod +x /etc/init.d/mysql
+/etc/init.d/mysql start
+```
+
+​	设置mysql环境变量
+
+```bash
+vim /etc/profile.d/mysql.sh
+export PATH=/usr/local/mysql/bin:$PATH
+source /etc/profile
+```
+
+​	 修改数据库密码
+
+```sql
+mysql
+use mysql;
+update user set password=password("newpasswd") where user='root' and host='localhost';
+flush privileges;
 ```
 
