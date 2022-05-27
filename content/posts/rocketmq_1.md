@@ -1,7 +1,7 @@
 ---
 title: "RocketMQ出现system busy、broker busy原因分析与解决"                         
 author: "雨吁"  
-description : "RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息"    
+description : "消息发送过程中偶尔会出现错误信息"    
 date: 2022-05-20        
 lastmod: 2022-05-20             
 
@@ -15,7 +15,7 @@ keywords : [
 "rocketmq",
 ]
 ---
-RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息：
+​	RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息：
 
 - [REJECTREQUEST]system busy, start flow control for a while
 - [PC_SYNCHRONIZED]broker busy, start flow control for a while
@@ -25,7 +25,7 @@ RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息
 
 #### 原因：
 
-消息发送时抛出system busy、broker busy错误，其本质是系统的PageCache繁忙，通俗一点讲就是向PageCache追加消息时，单个消息发送占用的时间超过1s了。
+​	消息发送时抛出system busy、broker busy错误，其本质是系统的PageCache繁忙，通俗一点讲就是向PageCache追加消息时，单个消息发送占用的时间超过1s了。
 
 1. osPageCacheBusyTimeOutMills + broker busy
 
@@ -61,7 +61,7 @@ RocketMQ使用者反馈在消息发送过程中偶尔会出现如下错误信息
 
 ##### 方向二：
 
-在broker配置文件中将transientStorePoolEnable设置为true。
+​	在broker配置文件中将transientStorePoolEnable设置为true。
 
 - 依据： 启用“读写”分离，消息发送时消息先追加到DirectByteBuffer(堆外内存)中，然后在异步刷盘机制下，会将DirectByteBuffer中的内容提交到PageCache，然后刷写到磁盘。消息拉取时，直接从PageCache中拉取，实现了读写分离，减轻了PageCaceh的压力，能从根本上解决该问题。
 
