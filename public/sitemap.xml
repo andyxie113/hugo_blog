@@ -3,10 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xiewen.xyz/</loc>
-    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/categories/</loc>
-    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/centos7/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/categories/centos7/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/posts/centos7%E7%BC%96%E8%AF%91%E5%AE%89%E8%A3%85mysql5.6/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/mysql/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/categories/mysql/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/posts/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/categories/%E7%BC%96%E8%AF%91/</loc>
+    <lastmod>2022-05-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/tags/centos/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
@@ -27,12 +54,6 @@
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/categories/nsq/</loc>
-    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiewen.xyz/posts/</loc>
-    <lastmod>2022-05-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiewen.xyz/tags/</loc>
     <lastmod>2022-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/tags/navicat/</loc>
