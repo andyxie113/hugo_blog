@@ -127,8 +127,8 @@ chmod +x /etc/init.d/mysql
 ​	设置mysql环境变量
 
 ```bash
-vim /etc/profile.d/mysql.sh
-export PATH=/usr/local/mysql/bin:$PATH
+vim ~/.bash_profile
+export PATH=$PATH:/usr/local/mysql/bin
 source /etc/profile
 ```
 
