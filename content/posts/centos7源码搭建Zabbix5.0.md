@@ -203,8 +203,6 @@ yum -y install ncurses-devel bison openssl-devel
 ```
 #### 下载MYSQL源代码
 ##### 打开 http://mysql.com/downloads/下载页面，找到 MySQL Community(GPL)Downloads
-​	还是找到 MySQL Communtiy Server，选择 "**Source Code**" 下载源码，再选择 **Generic Linux (Architecture Independent)**, 下载选择 "**Compressed TAR Archive, Includes Boost Headers**"。选择 "**Source Code**" 下载源码，再选择 **Generic Linux (Architecture Independent)**, 下载选择 "**Compressed TAR Archive, Includes Boost Headers**"，或者右键 "复制链接地址"到 Linux 上，下载
-
 ```shell
 wget https://dev.mysql.com/get/Downloads/MySQL-8.0/mysql-boost-8.0.26.tar.gz
 ```
@@ -266,7 +264,6 @@ useradd -M -g mysql -s /sbin/nologin -d /opt/mysql mysql
 ##创建目录结构
 mkdir -p /opt/mysql/{log,tmp}
 chown mysql:mysql /opt/mysql/ -R
-
 ```
 
 #### 初始化数据库
@@ -324,26 +321,17 @@ make && make install
 #### 设置nginx开机启动
 ```shell
 vi /lib/systemd/system/nginx.service
-[Unit]
- 
+[Unit] 
 Description=nginx service
- 
 After=network.target
- 
-   
- 
-[Service]
- 
-Type=forking
- 
-ExecStart=/opt/nginx/sbin/nginx
- 
-ExecReload=/opt/nginx/sbin/nginx -s reload
- 
-ExecStop=/opt/nginx/sbin/nginx -s quit
- 
+  
+[Service] 
+Type=forking 
+ExecStart=/opt/nginx/sbin/nginx 
+ExecReload=/opt/nginx/sbin/nginx -s reload 
+ExecStop=/opt/nginx/sbin/nginx -s quit 
 PrivateTmp=true
-    
+
 [Install]
 WantedBy=multi-user.target
 ```
@@ -529,12 +517,6 @@ $IMAGE_FORMAT_DEFAULT = IMAGE_FORMAT_PNG;
 ```shell
  /opt/zabbix/sbin/zabbix_server -c /opt/zabbix/etc/zabbix_server.conf
  netstat -antup | grep zabbix
-```
-![](http://doc.thexw.cn/server/index.php?s=/api/attachment/visitFile/sign/d058f02ad84858bb5fcaa489be486fa8)
-解决：
-```shell
-mkdir -p /var/lib/mysql　　#建立所需目录
-ln -s /tmp/mysql.sock /var/lib/mysql/    #链接指向文件所在目录
 ```
 #### Zabbix设置开机自启和自启动
 ```shell
