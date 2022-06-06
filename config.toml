@@ -2,7 +2,7 @@
 # Site Settings
 
 baseURL = "https://xiewen.xyz/"
-title = "Andy_Blog"
+title = "雨吁博客"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # Copyright information (Markdown supported)
