@@ -65,5 +65,4 @@ services:
       - /opt/mysql/data:/var/lib/mysql
       - /opt/mysql/conf:/etc/mysql/conf.d
       - /opt/mysql/logs:/logs
-```
 ````
