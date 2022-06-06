@@ -22,7 +22,7 @@ defaultContentLanguageInSubdir = false
 pluralizeListTitles = false
 
 # The length of text in words to show in summary
-summaryLength = 42
+summaryLength = 18
 
 # Enable Emoji emoticons support?
 enableEmoji = false
@@ -39,7 +39,7 @@ enableRobotsTXT = true
 # Number of items per page in paginated
 # lists (valid for the `posts` homepage
 # layout in MemE)
-paginate = 5
+paginate = 8
 
 # URL related
 disablePathToLower = false
@@ -155,7 +155,7 @@ uglyURLs = false
 # Hugo’s output control
 [outputs]
     page = ["HTML"]
-    #home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
+    # home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex", "Algolia"]
     home = ["HTML", "SectionsAtom", "SectionsRSS", "SearchIndex"]
     section = ["HTML"]
     taxonomy = ["HTML"]
@@ -239,10 +239,10 @@ uglyURLs = false
     [[menu.main]]
         weight = 7
         identifier = "lang-switcher"
-    #[[menu.main]]
-    #    weight = 8
-    #    identifier = "search"
-    #    post = "search"
+    [[menu.main]]
+        weight = 8
+        identifier = "search"
+        post = "search"
 
 
 
@@ -326,7 +326,6 @@ uglyURLs = false
     # 4. page      Normal page/post
 
     homeLayout = "posts"
-    #homeLayout = "poetry"
 
     ## Poetry
     # Verse (Markdown supported)
@@ -354,7 +353,7 @@ uglyURLs = false
     siteLogo = "/icons/apple-touch-icon.png"
     # Note: used for JSON-LD, Open Graph
 
-    siteDescription = "你是安好，便是晴天。"
+    siteDescription = "MemE is a powerful and highly customizable GoHugo theme for personal blogs."
     # Note: used for HTML head meta, JSON-LD,
     #       Open Graph, Atom, RSS
 
@@ -1273,17 +1272,17 @@ uglyURLs = false
     iconAnimation = true
 
     # Display links to Hugo and MemE?
-    displayPoweredBy = false
+    displayPoweredBy = true
 
     displaySiteCopyright = true
 
     # Custom Footer (Markdown supported)
-    customFooter = "<a href='https://beian.miit.gov.cn/' target='_blank'>粤ICP备2021177322号</a>"
+    customFooter = ""
 
     displayBusuanziSiteUVAndPV = false
-    busuanziSiteUVText = "本站访客数"
+    busuanziSiteUVText = "Site UV"
     busuanziSiteUVIcon = "user"
-    busuanziSitePVText = "本站访问量"
+    busuanziSitePVText = "Site PV"
     busuanziSitePVIcon = "eye"
     # Note: render only in production
     #       environment
@@ -1292,7 +1291,7 @@ uglyURLs = false
     #       https://busuanzi.ibruce.info/
 
     # Socials
-    enableSocials = false
+    enableSocials = true
     # Note: see data/Socials.toml
 
 
