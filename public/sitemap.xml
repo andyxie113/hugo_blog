@@ -3,7 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://xiewen.xyz/categories/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/linux/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/categories/linux/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/location/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/categories/location/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/nginx/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/categories/nginx/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/posts/nginx%E4%B8%ADlocation%E5%8C%B9%E9%85%8D%E8%A7%84%E5%88%99/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/posts/nginx%E9%85%8D%E7%BD%AEhttp%E5%BC%BA%E5%88%B6%E8%B7%B3%E8%BD%AChttps/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/posts/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/tags/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://xiewen.xyz/</loc>
+    <lastmod>2022-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/tags/centos7/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
@@ -32,16 +65,10 @@
     <loc>https://xiewen.xyz/categories/openresty/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://xiewen.xyz/posts/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://xiewen.xyz/tags/scl/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/categories/scl/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiewen.xyz/tags/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/tags/zabbix_agent/</loc>
@@ -60,9 +87,6 @@
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/posts/%E6%9E%84%E5%BB%BAopenresty%E9%95%9C%E5%83%8F%E5%B9%B6%E5%AE%89%E8%A3%85ngx_http_dyups_module%E6%A8%A1%E5%9D%97/</loc>
-    <lastmod>2022-06-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://xiewen.xyz/</loc>
     <lastmod>2022-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://xiewen.xyz/posts/minio%E5%8D%95%E6%9C%BA%E9%83%A8%E7%BD%B2/</loc>
