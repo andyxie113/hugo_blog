@@ -89,9 +89,6 @@ chown -R mysql.mysql /opt/data/mysql/
 ​	修改my.cnf文件
 
 ```
-[mysql]
-socket=/opt/mysql/mysqld.sock
-default-character-set=utf8
 [mysqld]
 skip-grant-tables
 explicit_defaults_for_timestamp=true
@@ -104,7 +101,7 @@ max_connections = 2000
 default-storage-engine=INNODB
 lower_case_table_names=1
 max_allowed_packet=16M
-log-error=/opt/mysql/logs/mysql.log
+log-error=/opt/mysql/mysql.log
 pid-file=/opt/mysql/mysql.pid
 !includedir /etc/my.cnf.d
 ```
@@ -127,17 +124,28 @@ chmod +x /etc/init.d/mysql
 ​	设置mysql环境变量
 
 ```bash
-vim ~/.bash_profile
+vim /etc/profile
 export PATH=$PATH:/usr/local/mysql/bin
 source /etc/profile
 ```
 
-​	 修改数据库密码
+​	修改数据库密码
 
 ```sql
 mysql
 use mysql;
 update user set password=password("newpasswd") where user='root' and host='localhost';
 flush privileges;
+```
+
+​	开启远程连接访问
+
+```sql
+#允许任意主机以用户root和密码连接到mysql服务器
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%' IDENTIFIED BY 'passwd' WITH GRANT OPTION;
+#特定ip的主机以特定用户和密码连接到mysql 服务器
+GRANT ALL PRIVILEGES ON *.* TO 'user'@'x.x.x.x' IDENTIFIED BY 'userpwd' WITH GRANT OPTION; 
+#刷新MySQL的系统权限相关表
+flush PRIVILEGES;
 ```
 
